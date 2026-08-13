@@ -1,0 +1,1041 @@
+<!DOCTYPE html><html lang=en-us><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1"><meta name=google content=notranslate><meta name=msapplication-TileColor content=#000000><meta name=theme-color content=#ffffff><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover"><title>Future Ai Hub</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script>document.addEventListener('DOMContentLoaded', function() {
+                document.documentElement.style.fontSize = document.documentElement.clientWidth / 20 + 'px'
+            })</script><script src=./static/uni.webview.js></script><script>// 待触发 `UniAppJSBridgeReady` 事件后，即可调用 uni 的 API。
+			document.addEventListener('UniAppJSBridgeReady', function() {
+				console.log('UniAppJSBridgeReady');
+				webUni.getEnv(function(res) {
+					
+				});
+			});</script><link rel=stylesheet href=./static/index.883130ca.css></head><body><noscript><strong>Please enable JavaScript to continue.</strong></noscript><div class=waves></div><div id=app></div><script src=./static/js/chunk-vendors.395c67ec.js></script><script src=./static/js/index.a822f0e6.js></script></body><link href="wave-background.css" rel="stylesheet" scoped>
+  <link href="styles.css" rel="stylesheet">
+  <style>
+    
+
+    /**ACCOUNT BALANCE SECTION*/
+  /* Main Card Container */
+    /* Container styling to match the dark slate background and blue neon glow */
+.card-con {
+  background-color: #11151c; /* Very dark slate/blue background */
+  border-radius: 20px;
+  border: 1px solid #1c7bb5;
+  padding: 10px 10px 10px 10px;
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+     box-shadow: 0 0 15px 3px rgba(30, 161, 246, 0.4); /* Neon blue outer glow */
+  box-sizing: border-box;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+/* Flexbox rows for alignment */
+.row {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+
+/* 2-column layout */
+.row-2 .item {
+  width: 50%;
+}
+
+/* 3-column layout */
+.row-3 .item {
+  width: 33.33%;
+}
+    .item {
+      display: flex;
+      flex-direction: column;
+      
+      }
+
+/* Title styling - using a serif font to match the image */
+.tit {
+  font-family: Georgia, serif;
+  font-size: 10px;
+  margin-bottom: 4px;
+  color: #e9ecef; /* Slightly off-white for softer contrast */
+  letter-spacing: 0.5px;
+}
+
+/* Denomination (Numbers) styling */
+.denom {
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+/* Bottom double chevron styling */
+.chevron-icon {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+                                        }
+
+    /**ACTIONS TO NE DONE SECTION**/
+    .menu-container {
+      background-color: #11151c; /* Very dark slate/blue background */
+      border: 1px solid #1c7bb5;
+      border-radius: 20px;
+      padding: 20px 8px;
+      margin-bottom: 30px;
+      width: 100%;
+      max-width: 600px;
+      box-shadow: 0 0 15px 3px rgba(30, 161, 246, 0.4); /* Neon blue outer glow */
+      box-sizing: border-box;
+    }
+
+    .menu-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      row-gap: 35px;
+      column-gap: 10px;
+      justify-items: center;
+    }
+
+    .menu-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-decoration: none;
+      cursor: pointer;
+    }
+  
+
+    .icon-box {
+      background: linear-gradient(180deg, #0e55b4 0%, #0a4597 100%);
+      width: 40px;
+      height: 40px;
+      border-radius: 10px; /* Squircle shape */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 4px;
+    }
+
+    .icon-box i {
+      color: white;
+      font-size: 20px;
+    }
+
+    .menu-label {
+      color: #f1f1f1;
+      font-family: Georgia, serif; /* Serif font matching the screenshot */
+      font-size: 10px;
+      letter-spacing: 0.5px;
+      text-align: center;
+    }
+    
+    
+    /****/
+    .btndiv{
+      width: 100%;
+      height: 50px;
+      border-radius: 15px;
+      background: linear-gradient(180deg, #0e55b4 0%, #0a4597 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #f7fbff;
+      font-size: 17px;
+      font-weight: 400;
+      letter-spacing: 0.2px;
+      box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.12),
+    0 6px 18px rgba(7, 80, 180, 0.35);
+  margin-bottom: 15px;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      text-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+      user-select: none;
+    }
+  </style>
+  <body>
+
+    <!--Hearder---->
+<div class="banner">
+    <div class="text-block">
+      <p class="title">Welcome to Future Ai hub</p>
+      <div class="userinfo">
+        <span class="phone">0789993850</span>
+        <span class="anon">Anon</span>
+      </div>
+    </div>
+
+    <div class="badge">
+      <div class="spokes"></div>
+    </div>
+  </div>
+
+    <!--ACCOUNT BALANCE SECTION--->
+
+<div class="card-con">
+  <div class="row row-2">
+    <div class="item">
+      <div class="tit">Wallet</div>
+      <div class="denom">0.00</div>
+    </div>
+    <div class="item">
+      <div class="tit">Balance</div>
+      <div class="denom">0.00</div>
+    </div>
+  </div>
+
+  <div class="row row-2">
+    <div class="item">
+      <div class="tit">Deposit</div>
+      <div class="denom">0.00</div>
+    </div>
+    <div class="item">
+      <div class="tit">Withdraw</div>
+      <div class="denom">0.00</div>
+    </div>
+  </div>
+
+  <div class="row row-2">
+    <div class="item">
+      <div class="tit">AI Income</div>
+      <div class="denom">0.00</div>
+    </div>
+    <div class="item">
+      <div class="tit">Today's earnings</div>
+      <div class="denom">0.00</div>
+    </div>
+  </div>
+
+  <div class="row row-3">
+    <div class="item">
+      <div class="tit">Invite Count</div>
+      <div class="denom">0</div>
+    </div>
+    <div class="item">
+      <div class="tit">Team Count</div>
+      <div class="denom">0</div>
+    </div>
+    <div class="item">
+      <div class="tit">Team income</div>
+      <div class="denom">0.00</div>
+    </div>
+  </div>
+
+  <div class="chevron-icon">
+    <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="#2ab1f5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="17 18 12 13 7 18"></polyline>
+      <polyline points="17 11 12 6 7 11"></polyline>
+    </svg>
+  </div>
+</div>
+
+    <!--ACTIONS TO BE DONE SECTION--->
+
+  <div class="menu-container">
+    <div class="menu-grid">
+      
+      <!-- Row 1 -->
+      <div class="menu-item">
+        <div class="icon-box" onclick="openDeposit()"><i class="fa-solid fa-wallet"></i></div>
+        <div class="menu-label">Deposit</div>
+      </div>
+      <div class="menu-item">
+        <div class="icon-box" onclick="openWithdraw()"><i class="fa-solid fa-hand-holding-dollar"></i></div>
+        <div class="menu-label">Withdraw</div>
+      </div>
+      <div class="menu-item">
+        <div class="icon-box" onclick="openBill()"><i class="fa-solid fa-money-check"></i></div>
+        <div class="menu-label">Bill</div>
+      </div>
+      <div class="menu-item">
+        <div class="icon-box" onclick="openInvite()"><i class="fa-solid fa-handshake"></i></div>
+        <div class="menu-label">Invite</div>
+      </div>
+
+      <!-- Row 2 -->
+      <div class="menu-item">
+        <div class="icon-box" onclick="openMyteam()"><i class="fa-solid fa-users"></i></div>
+        <div class="menu-label">My team</div>
+      </div>
+      <div class="menu-item">
+        <div class="icon-box" onclick="openViptask()"><i class="fa-solid fa-star"></i></div>
+        <div class="menu-label">VIP Task</div>
+      </div>
+      <div class="menu-item">
+        <div class="icon-box" onclick="openReward()"><i class="fa-solid fa-gift"></i></div>
+        <div class="menu-label">Reward</div>
+      </div>
+      <div class="menu-item">
+        <div class="icon-box" onclick="openRaffle()"><i class="fa-solid fa-certificate"></i></div>
+        <div class="menu-label">Raffle</div>
+      </div>
+
+      <!-- Row 3 -->
+      <div class="menu-item">
+        <div class="icon-box" onclick="openDownloadapp()"><i class="fa-solid fa-download"></i></div>
+        <div class="menu-label" >Download App</div>
+      </div>
+      <div class="menu-item">
+        <div class="icon-box"onclick="openManager()"><i class="fa-solid fa-headset"></i></div>
+        <div class="menu-label">Manager</div>
+      </div>
+      <div class="menu-item">
+        <div class="icon-box"onclick="openSettings()"><i class="fa-solid fa-user-gear"></i></div>
+        <div class="menu-label">Settings</div>
+      </div>
+      
+      <!-- Empty 4th item to keep the grid aligned on the 3rd row -->
+      <div class="menu-item"></div>
+
+    </div>
+  </div>
+
+    <!--CRYPTO CURRENCY---->
+    <div style="background-color: #11151c;border: 1px solid #1c7bb5;border-radius: 20px;
+      padding: 20px 10px;
+      width: 100%;box-shadow: 0 0 15px 3px rgba(30, 161, 246, 0.4); margin-bottom: 30px;" >
+      <div style="font-family: sans-serif;color: white; font-size:18px; font-weight: 600px;">HUT8 Cryptocurrency Purchase Share</div>
+    <hr style="color: #1c7bb5;">
+      <div style="font-family: sans-serif;color: white; font-size:18px; font-weight: 600px">0.00</div>
+    </div>
+
+    <!--LAST MONTH SUMMARY---->
+    <div style="background-color: #11151c;border: 1px solid #1c7bb5;border-radius: 20px;
+      padding: 35px 20px;
+      width: 100%;box-shadow: 0 0 15px 3px rgba(30, 161, 246, 0.4); margin-bottom: 30px;">
+      <div class="row row-2" style="text-align: center;">
+    <div class="item">
+      <div style="font-size: 15px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: rgba(255, 255, 255, 0.96);
+  margin-bottom: 6px;">Last month's Salary</div>
+      <div style="font-size: 38px;
+  font-weight: 800;
+  line-height: 1;
+  color: #ffffff;">0.00</div>
+    </div>
+    <div class="item">
+      <div style="font-size: 15px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: rgba(255, 255, 255, 0.96);
+  margin-bottom: 6px;">This month's Salary</div>
+      <div style="font-size: 38px;
+  font-weight: 800;
+  line-height: 1;
+  color: #ffffff;">0.00</div>
+    </div>
+      </div>
+     <div class="btndiv">
+          Get Last Month Salary
+     </div>
+    </div>
+
+    <!--LAST MONTH REWARD VS SUMMARY---->
+    
+<div class="reward-card">
+  <div class="reward-stats">
+    <div class="stat">
+      <div class="stat-title">Invited last month</div>
+      <div class="stat-value">0</div>
+    </div>
+
+    <div class="stat">
+      <div class="stat-title">Invited this month</div>
+      <div class="stat-value">0</div>
+    </div>
+  </div>
+
+  <button class="rewardd-btn" type="button" >
+    Get last month's reward
+  </button>
+
+  <div class="reward-table">
+    <div class="table-head">
+      <span>Invite</span>
+      <span>Reward</span>
+    </div>
+
+    <div class="table-row">
+      <span>6</span>
+      <span>Z-1</span>
+    </div>
+
+    <div class="table-row">
+      <span>15</span>
+      <span>Z-2</span>
+    </div>
+
+    <div class="table-row">
+      <span>30</span>
+      <span>Z-3</span>
+    </div>
+
+    <div class="table-row">
+      <span>60</span>
+      <span>Z-4</span>
+    </div>
+  </div>
+</div>
+     <!-- ========= BOTTOM NAV ========= -->
+  <nav class="nav">
+    <a href="index.html" class="active">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
+        <ellipse cx="12" cy="5" rx="8" ry="3"/>
+        <path d="M4 5v4c0 1.66 3.58 3 8 3s8-1.34 8-3V5"/>
+        <path d="M4 9v4c0 1.66 3.58 3 8 3s8-1.34 8-3V9"/>
+        <path d="M4 13v4c0 1.66 3.58 3 8 3s8-1.34 8-3v-4"/>
+      </svg>
+      Home
+    </a>
+    <a href="raffle.html">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+        <rect x="3" y="3" width="8" height="8" rx="1.5"/>
+        <rect x="13" y="3" width="8" height="8" rx="1.5"/>
+        <rect x="3" y="13" width="8" height="8" rx="1.5"/>
+        <rect x="13" y="13" width="8" height="8" rx="1.5"/>
+      </svg>
+      Raffle
+    </a>
+    <a href="chats.html">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round">
+        <path d="M9 3.5h9a2.5 2.5 0 0 1 2.5 2.5v4.5a2.5 2.5 0 0 1-2.5 2.5h-1v3.2l-3.2-3.2h-1.3"/>
+        <path d="M4.5 8h8A2.5 2.5 0 0 1 15 10.5v4a2.5 2.5 0 0 1-2.5 2.5H8l-4 3.2V17H4.5A2.5 2.5 0 0 1 2 14.5v-4A2.5 2.5 0 0 1 4.5 8z"/>
+      </svg>
+      chats
+    </a>
+    <a href="ai.html">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
+        <rect x="6.5" y="6.5" width="11" height="11" rx="2"/>
+        <rect x="10" y="10" width="4" height="4" rx="1"/>
+        <path d="M9.5 6.5V3.5M12 6.5V3.5M14.5 6.5V3.5M9.5 20.5v-3M12 20.5v-3M14.5 20.5v-3"/>
+        <path d="M6.5 9.5h-3M6.5 12h-3M6.5 14.5h-3M20.5 9.5h-3M20.5 12h-3M20.5 14.5h-3"/>
+      </svg>
+      AI
+    </a>
+    <a href="bitcoin-income.html">
+      <svg viewBox="0 0 24 24">
+        <line x1="9" x2="9" y1="4" y2="21" stroke="currentColor" stroke-width="2.2"/>
+        <line x1="13" x2="13" y1="4" y2="21" stroke="currentColor" stroke-width="2.2"/>
+        <text x="11.8" y="18.2" text-anchor="middle" font-size="17" font-weight="800"
+              font-family="Arial,Helvetica,sans-serif" fill="currentColor">B</text>
+      </svg>
+      Income
+    </a>
+    <a href="user-account.html">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
+        <circle cx="12" cy="7.5" r="4"/>
+        <path d="M4.5 20.5c0-4 3.5-6.7 7.5-6.7s7.5 2.7 7.5 6.7"/>
+      </svg>
+      My
+    </a>
+  </nav>
+    <div style="padding-bottom: 45px;"></div>
+    
+
+    
+
+
+
+
+
+
+<!-- ==================================================
+     FULL SCREEN DEPOSIT PAGE
+================================================== -->
+
+<div id="depositOverlay" class="deposit-overlay">
+
+    <div class="deposit-page">
+
+
+        <!-- HEADER -->
+        <div class="deposit-header">
+
+            <button class="back-btn" onclick="closeDeposit()"></button>
+
+            <div class="deposit-title">
+                Deposit
+            </div>
+
+        </div>
+
+
+        <!-- PAYMENT TABS -->
+        <div class="payment-tabs">
+
+            <div
+                id="momoTab"
+                class="payment-tab active"
+                onclick="showMomo()"
+            >
+                MTN / Airtel
+            </div>
+
+            <div
+                id="usdtTab"
+                class="payment-tab"
+                onclick="showUsdt()"
+            >
+                USDT
+            </div>
+
+        </div>
+
+
+
+        <!-- ===========================
+             MOBILE MONEY SECTION
+        ============================ -->
+        <div id="momoSection" class="momo-section active">
+
+            <!-- PHONE NUMBER -->
+            <div class="form-group">
+
+                <label class="form-label">
+                    MTN or Airtel number
+                </label>
+
+                <input
+                    type="tel"
+                    class="phone-input"
+                    id="phoneNumber"
+                    placeholder="0XXXXXXXXX MTN or Airtel number"
+                >
+
+            </div>
+
+
+            <!-- AMOUNT -->
+            <div class="form-group">
+
+                <div class="amount-row">
+
+                    <input
+                        type="number"
+                        class="amount-input"
+                        id="amountInput"
+                        placeholder="Please enter amount to deposit"
+                        oninput="updateAmount()"
+                    >
+
+                    <div class="amount-display">
+                        UGX <span id="amountDisplay">0.00</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- NOTE -->
+            <div class="note-box">
+
+                <div class="note-title">
+                    Note:
+                </div>
+
+                <div class="note-text">
+                    Enter the phone number you are using to pay
+                    (MTN or Airtel) to receive the company's
+                    payment details
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- ===========================
+             USDT SECTION
+        ============================ -->
+        <div id="usdtSection" class="usdt-section">
+
+            <div class="form-group">
+
+                <label class="form-label">
+                    USDT wallet address
+                </label>
+
+                <input
+                    type="text"
+                    class="phone-input"
+                    placeholder="Enter your USDT wallet address"
+                >
+
+            </div>
+
+            <div class="form-group">
+
+                <div class="amount-row">
+
+                    <input
+                        type="number"
+                        class="amount-input"
+                        placeholder="Please enter USDT amount"
+                    >
+
+                    <div class="amount-display">
+                        USDT
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="note-box">
+
+                <div class="note-title">
+                    Note:
+                </div>
+
+                <div class="note-text">
+                    Enter the USDT amount you want to deposit
+                    and provide your wallet address.
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- DEPOSIT BUTTON -->
+        <button
+            class="deposit-submit"
+            onclick="processDeposit()"
+        >
+            Deposit
+        </button>
+
+    </div>
+
+</div>
+
+
+
+    
+
+
+
+
+<!-- ==================================================
+     WITHDRAW PAGE POP UPDATE
+
+
+    
+================================================== -->
+<!----
+<div class="home-content">
+
+    <button class="open-deposit" onclick="openWithdraw()">
+        Withdraw
+    </button>
+
+</div>
+
+
+
+<!-- ==================================================
+     FULL SCREEN DEPOSIT PAGE
+================================================== -->
+
+<div id="withdrawOverlay" class="withdraw-overlay">
+
+    <div class="deposit-page">
+
+
+        <!-- HEADER -->
+        <div class="deposit-header">
+
+            <button class="back-btn" onclick="closeDeposit()"></button>
+
+            <div class="deposit-title">
+                Withdraw
+            </div>
+
+        </div>
+
+
+        <!-- PAYMENT TABS -->
+        <div class="payment-tabs">
+
+            <div
+                id="momoTab"
+                class="payment-tab active"
+                onclick="showMomo()"
+            >
+                MTN / Airtel
+            </div>
+
+            <div
+                id="usdtTab"
+                class="payment-tab"
+                onclick="showUsdt()"
+            >
+                USDT
+            </div>
+
+        </div>
+
+
+
+        <!-- ===========================
+             MOBILE MONEY SECTION
+        ============================ -->
+        <div id="momoSection" class="momo-section active">
+
+            <!-- PHONE NUMBER -->
+            <div class="form-group">
+
+                <label class="form-label">
+                    MTN or Airtel number
+                </label>
+
+                <input
+                    type="tel"
+                    class="phone-input"
+                    id="phoneNumber"
+                    placeholder="0XXXXXXXXX MTN or Airtel number"
+                >
+
+            </div>
+
+
+            <!-- AMOUNT -->
+            <div class="form-group">
+
+                <div class="amount-row">
+
+                    <input
+                        type="number"
+                        class="amount-input"
+                        id="amountInput"
+                        placeholder="Please enter amount to withdraw"
+                        oninput="updateAmount()"
+                    >
+
+                    <div class="amount-display">
+                        UGX <span id="amountDisplay">0.00</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- NOTE -->
+            <div class="note-box">
+
+                <div class="note-title">
+                    Note:
+                </div>
+
+                <div class="note-text">
+                    Enter the phone number you are using to pay
+                    (MTN or Airtel) to receive the company's
+                    payment details
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- ===========================
+             USDT SECTION
+        ============================ -->
+        <div id="usdtSection" class="usdt-section">
+
+            <div class="form-group">
+
+                <label class="form-label">
+                    USDT wallet address
+                </label>
+
+                <input
+                    type="text"
+                    class="phone-input"
+                    placeholder="Enter your USDT wallet address"
+                >
+
+            </div>
+
+            <div class="form-group">
+
+                <div class="amount-row">
+
+                    <input
+                        type="number"
+                        class="amount-input"
+                        placeholder="Please enter USDT amount"
+                    >
+
+                    <div class="amount-display">
+                        USDT
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="note-box">
+
+                <div class="note-title">
+                    Note:
+                </div>
+
+                <div class="note-text">
+                    Enter the USDT amount you want to withdraw
+                    and provide your wallet address.
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <!-- DEPOSIT BUTTON -->
+        <button
+            class="deposit-submit"
+            onclick="processDeposit()"
+        >
+            Withdraw
+        </button>
+
+    </div>
+
+</div>
+
+    
+
+
+
+
+<!-- ==================================================
+     BILL PAGE
+
+.
+================================================== -
+
+<div class="home-content">
+
+    <button class="open-deposit" onclick="openBill()">
+        Withdraw
+    </button>
+
+</div>
+
+
+
+<!-- ==================================================
+     FULL SCREEN DEPOSIT PAGE
+================================================== -->
+
+<div id="billOverlay" class="deposit-overlay">
+
+    <div class="deposit-page">
+
+
+        <!-- HEADER -->
+        <div class="deposit-header">
+
+            <button class="back-btn" onclick="closeDeposit()"></button>
+
+            <div class="deposit-title">
+                BILL
+            </div>
+
+        </div>
+
+
+        
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+<script>
+
+    /* ==============================
+       OPEN DEPOSIT
+    =============================== */
+
+    function openDeposit() {
+
+        document.getElementById("depositOverlay")
+            .classList.add("active");
+
+        document.body.style.overflow = "hidden";
+    }
+  
+    /* ==============================
+       OPEN WITHDRAW
+    =============================== */
+
+    function openWithdraw() {
+
+        document.getElementById("withdrawOverlay")
+            .classList.add("active");
+
+        document.body.style.overflow = "hidden";
+    }
+
+  
+    /* ==============================
+       OPEN BILL
+    =============================== */
+
+    function openBill() {
+
+        document.getElementById("billOverlay")
+            .classList.add("active");
+
+        document.body.style.overflow = "hidden";
+    }
+
+
+
+    /* ==============================
+       CLOSE DEPOSIT
+    =============================== */
+
+    function closeDeposit() {
+
+        document.getElementById("depositOverlay")
+            .classList.remove("active");
+        document.getElementById("withdrawOverlay")
+            .classList.remove("active");
+      document.getElementById("billOverlay")
+            .classList.remove("active");
+
+        document.body.style.overflow = "";
+    }
+
+
+    /* ==============================
+       MOBILE MONEY TAB
+    =============================== */
+
+    function showMomo() {
+
+        document.getElementById("momoTab")
+            .classList.add("active");
+
+        document.getElementById("usdtTab")
+            .classList.remove("active");
+
+        document.getElementById("momoSection")
+            .classList.remove("hidden");
+
+        document.getElementById("momoSection")
+            .classList.add("active");
+
+        document.getElementById("usdtSection")
+            .classList.remove("active");
+    }
+
+
+    /* ==============================
+       USDT TAB
+    =============================== */
+
+    function showUsdt() {
+
+        document.getElementById("usdtTab")
+            .classList.add("active");
+
+        document.getElementById("momoTab")
+            .classList.remove("active");
+
+        document.getElementById("momoSection")
+            .classList.add("hidden");
+
+        document.getElementById("momoSection")
+            .classList.remove("active");
+
+        document.getElementById("usdtSection")
+            .classList.add("active");
+    }
+
+
+    /* ==============================
+       UPDATE AMOUNT DISPLAY
+    =============================== */
+
+    function updateAmount() {
+
+        let amount =
+            document.getElementById("amountInput").value;
+
+        if (amount === "") {
+            amount = "0.00";
+        } else {
+            amount =
+                Number(amount).toLocaleString(
+                    "en-US",
+                    {
+                        minimumFractionDigits: 2,
+                        maximumFractionDigits: 2
+                    }
+                );
+        }
+
+        document.getElementById("amountDisplay")
+            .textContent = amount;
+    }
+
+
+    /* ==============================
+       DEPOSIT ACTION
+    =============================== */
+
+    function processDeposit() {
+
+        const phone =
+            document.getElementById("phoneNumber").value;
+
+        const amount =
+            document.getElementById("amountInput").value;
+
+        if (phone === "") {
+            alert("Please enter your MTN or Airtel number.");
+            return;
+        }
+
+        if (amount === "" || Number(amount) <= 0) {
+            alert("Please enter a valid deposit amount.");
+            return;
+        }
+
+        /*
+           Put your actual payment API / backend
+           request here.
+        */
+
+        console.log(
+            "Deposit requested:",
+            phone,
+            amount
+        );
+    }
+
+</script>
+    <script src="wave-background.js"></script>
+  </body>
+</html>
+    

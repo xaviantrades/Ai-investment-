@@ -1,0 +1,279 @@
+<!DOCTYPE html><html lang=en-us><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1"><meta name=google content=notranslate><meta name=msapplication-TileColor content=#000000><meta name=theme-color content=#ffffff><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover"><title>Future Ai Hub</title>
+  <style>
+        /* ---- Navigation container ---- */
+    .nav-wrapper {
+      background: #11151c;
+      border-bottom: 1px solid #e0e0e0;
+      padding: 0.2rem 0;
+    }
+
+    .tabs {
+      /* Enable horizontal scrolling when tabs overflow */
+      overflow-x: auto;
+      overflow-y: hidden;
+      white-space: nowrap;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;          /* Firefox: hide scrollbar */
+    }
+
+    .tabs::-webkit-scrollbar {
+      height: 0;                       /* Chrome/Safari: hide scrollbar */
+    }
+
+    /* ---- Tab list ---- */
+    .tab-list {
+      display: inline-flex;
+      list-style: none;
+      padding-left: 0.3rem;
+    }
+
+    .tab-item {
+      margin-right: 0.25rem;
+    }
+
+    .tab-item a {
+      display: block;
+      padding: 0.5rem 1rem;
+      text-decoration: none;
+      color: white;
+      border-radius: 4px;
+      transition: background 0.2s, color 0.2s;
+    }
+
+    .tab-item a:hover {
+      background: #f0f0f0;
+      color: #000;
+    }
+
+    .tab-item.active a {
+      background: #007bff;
+      color: #fff;
+    }
+
+
+    /*** AI CATDVIEW LISTING***/
+    
+    .withdraw-card {
+        width: 100%;
+        max-width: 700px;
+        height: 155px;
+        margin: 0 auto;
+        display: flex;
+        overflow: hidden;
+
+        background: #02060a;
+        border: 1px solid #087bc2;
+        border-radius: 10px;
+
+        box-shadow:
+            0 0 5px rgba(0, 136, 255, 0.8),
+            0 0 15px rgba(0, 136, 255, 0.35);
+
+        color: white;
+    }
+
+    .withdraw-image {
+        width: 42%;
+        height: 100%;
+        background: #161616;
+        flex-shrink: 0;
+    }
+
+    .withdraw-image img {
+        width: 100%;
+        height: 100%;
+        display: block;
+        object-fit: cover;
+    }
+
+    .withdraw-info {
+        width: 58%;
+        padding: 10px 11px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+
+    .withdraw-title {
+        margin: 0;
+        color: #25b8ff;
+        font-size: 21px;
+        line-height: 1.05;
+        font-weight: bold;
+        white-space: nowrap;
+    }
+
+    .withdraw-line {
+        margin: 0;
+        font-size: 18px;
+        line-height: 1.1;
+        white-space: nowrap;
+    }
+
+    @media (max-width: 480px) {
+        .withdraw-card {
+            height: 135px;
+            border-radius: 9px;
+        }
+
+        .withdraw-info {
+            padding: 8px 9px;
+        }
+
+        .withdraw-title {
+            font-size: 17px;
+        }
+
+        .withdraw-line {
+            font-size: 15px;
+        }
+      }
+    
+
+      
+
+  </style>
+  
+  <script>document.addEventListener('DOMContentLoaded', function() {
+                document.documentElement.style.fontSize = document.documentElement.clientWidth / 20 + 'px'
+            })</script><script src=./static/uni.webview.js></script><script>// 待触发 `UniAppJSBridgeReady` 事件后，即可调用 uni 的 API。
+			document.addEventListener('UniAppJSBridgeReady', function() {
+				console.log('UniAppJSBridgeReady');
+				webUni.getEnv(function(res) {
+					
+				});
+			});</script><link rel=stylesheet href=./static/index.883130ca.css></head><body><noscript><strong>Please enable JavaScript to continue.</strong></noscript><div class=waves></div><div id=app></div><script src=./static/js/chunk-vendors.395c67ec.js></script><script src=./static/js/index.a822f0e6.js></script></body><link href="wave-background.css" rel="stylesheet" scoped></>
+  <body>
+    
+<!-- Navigation bar with scrolling capability -->
+<nav class="nav-wrapper" aria-label="Client navigation">
+  <div class="tabs">
+    <ul class="tab-list" id="tabList">
+      <li class="tab-item active" data-tab="all"><a href="#all">All</a></li>
+      <li class="tab-item" data-tab="client1"><a href="#client1">Chat gpt </a></li>
+      <li class="tab-item" data-tab="client2"><a href="#client2">Claude AI</a></li>
+      <li class="tab-item" data-tab="client3"><a href="#client3">Germini AI</a></li>
+      <li class="tab-item" data-tab="client4"><a href="#client4">DeepSeek AI</a></li>
+      <li class="tab-item" data-tab="client5"><a href="#client5">Perplexiy AI</a></li>
+      <li class="tab-item" data-tab="client6"><a href="#client6">Grok AI</a></li>
+    </ul>
+  </div>
+</nav>
+
+    
+<!--AI CARDVIEW LISTING-->
+    
+<div class="withdraw-card">
+
+    <div class="withdraw-image">
+        <img
+            src="https://rinbpazntachmfqmwedo.supabase.co/storage/v1/object/public/Hut9/IMG-20260807-WA0030.jpg"
+            alt="Withdrawal machine"
+        >
+    </div>
+
+    <div class="withdraw-info">
+
+        <h2 class="withdraw-title">
+            Withdrawal Unlock 48 hours
+        </h2>
+
+        <p class="withdraw-line">
+            Lock: 1 Days
+        </p>
+
+        <p class="withdraw-line">
+            Price: 200,000.00
+        </p>
+
+        <p class="withdraw-line">
+            Total income: 500,000.00
+        </p>
+
+    </div>
+
+</div>
+
+
+      <!-- ========= BOTTOM NAV ========= -->
+  <nav class="nav">
+    <a href="index.html" class="active">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
+        <ellipse cx="12" cy="5" rx="8" ry="3"/>
+        <path d="M4 5v4c0 1.66 3.58 3 8 3s8-1.34 8-3V5"/>
+        <path d="M4 9v4c0 1.66 3.58 3 8 3s8-1.34 8-3V9"/>
+        <path d="M4 13v4c0 1.66 3.58 3 8 3s8-1.34 8-3v-4"/>
+      </svg>
+      Home
+    </a>
+    <a href="raffle.html">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+        <rect x="3" y="3" width="8" height="8" rx="1.5"/>
+        <rect x="13" y="3" width="8" height="8" rx="1.5"/>
+        <rect x="3" y="13" width="8" height="8" rx="1.5"/>
+        <rect x="13" y="13" width="8" height="8" rx="1.5"/>
+      </svg>
+      Raffle
+    </a>
+    <a href="chats.html">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round">
+        <path d="M9 3.5h9a2.5 2.5 0 0 1 2.5 2.5v4.5a2.5 2.5 0 0 1-2.5 2.5h-1v3.2l-3.2-3.2h-1.3"/>
+        <path d="M4.5 8h8A2.5 2.5 0 0 1 15 10.5v4a2.5 2.5 0 0 1-2.5 2.5H8l-4 3.2V17H4.5A2.5 2.5 0 0 1 2 14.5v-4A2.5 2.5 0 0 1 4.5 8z"/>
+      </svg>
+      chats
+    </a>
+    <a href="ai.html">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
+        <rect x="6.5" y="6.5" width="11" height="11" rx="2"/>
+        <rect x="10" y="10" width="4" height="4" rx="1"/>
+        <path d="M9.5 6.5V3.5M12 6.5V3.5M14.5 6.5V3.5M9.5 20.5v-3M12 20.5v-3M14.5 20.5v-3"/>
+        <path d="M6.5 9.5h-3M6.5 12h-3M6.5 14.5h-3M20.5 9.5h-3M20.5 12h-3M20.5 14.5h-3"/>
+      </svg>
+      AI
+    </a>
+    <a href="bitcoin-income.html">
+      <svg viewBox="0 0 24 24">
+        <line x1="9" x2="9" y1="4" y2="21" stroke="currentColor" stroke-width="2.2"/>
+        <line x1="13" x2="13" y1="4" y2="21" stroke="currentColor" stroke-width="2.2"/>
+        <text x="11.8" y="18.2" text-anchor="middle" font-size="17" font-weight="800"
+              font-family="Arial,Helvetica,sans-serif" fill="currentColor">B</text>
+      </svg>
+      Income
+    </a>
+    <a href="user-account.html">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
+        <circle cx="12" cy="7.5" r="4"/>
+        <path d="M4.5 20.5c0-4 3.5-6.7 7.5-6.7s7.5 2.7 7.5 6.7"/>
+      </svg>
+      My
+    </a>
+  </nav>
+    <div style="padding-bottom: 45px;"></div>
+    <script src="wave-background.js"></script>
+    
+<script>
+  // Simple JS to demonstrate active‑tab switching
+  document.addEventListener('DOMContentLoaded', () => {
+    const tabList = document.getElementById('tabList');
+    const items   = tabList.querySelectorAll('.tab-item');
+    const content = document.getElementById('tabContent');
+
+    items.forEach(item => {
+      item.addEventListener('click', e => {
+        // Prevent default anchor behavior (optional, you can keep # links)
+        e.preventDefault();
+
+        // Remove active class from all items
+        items.forEach(i => i.classList.remove('active'));
+        // Add active class to clicked item
+        item.classList.add('active');
+
+        
+      });
+    });
+  });
+</script>
+  </body>
+</html>
+    
